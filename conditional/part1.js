@@ -48,6 +48,26 @@ console.log(xy.s);//20
 
 
 
+let px = Math.pow(2, 16);
+let gx = Math.random() * 1000;
+
+let valueTwo = (px < gx ? px : gx);
+console.log(valueTwo); //605.1580131626222 //getting random value
+
+
+
+let sx = Math.pow(2, 16);
+let tx = Math.random() * 1000;
+
+let valueTwon = (sx > tx ? px : gx);
+let pt = (valueTwon); //992.4634776773487
+
+console.log(parseInt(pt));//65536
+
+
+
+
+
 
 
 
